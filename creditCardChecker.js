@@ -85,4 +85,5 @@ const idInvalidCardCompanies = (arr) => {
   return companiesArr
 }
 
+// Log invalid card companies to the console
 console.log(idInvalidCardCompanies(findInvalidCards(batch)));
