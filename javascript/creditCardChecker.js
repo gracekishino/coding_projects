@@ -41,7 +41,7 @@ const validateCred = (arr) => {
   }
 
   // Sum check array
-  let checkArrSum = checkArr.reduce((a,b) => a + b, 0);
+  let checkArrSum = checkArr.reduce((a,b) => a + b);
   
   if (checkArrSum % 10 === 0) {     // Check if sum of check array is divisible by 10
     return true     // Card valid
