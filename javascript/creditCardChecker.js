@@ -28,7 +28,7 @@ const validateCred = (arr) => {
   let checkArr = [...arr];     // Make a copy of the input array to avoid mutating the original array
 
   // Iterate backwards through check array
-  for (i = arr.length-1, everyOther = false; i >= 0; i--) {    
+  for (let i = arr.length-1, everyOther = false; i >= 0; i--) {    
 
     // Multiply every other item by 2 and then -9 if result is greater than 9
     if (everyOther) {
